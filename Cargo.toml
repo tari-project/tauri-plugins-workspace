@@ -12,7 +12,7 @@ resolver = "2"
 serde = { version = "1", features = ["derive"] }
 tracing = "0.1"
 log = "0.4"
-tauri = { git = "https://github.com/tari-project/tauri.git", default-features = false }
+tauri = { git = "https://github.com/tari-project/tauri.git", rev = "67a06c8a9bae94f412b8059dfa8b4d8dd8ea0a25", default-features = false }
 tauri-build = "2"
 tauri-plugin = "2"
 tauri-utils = "2"
